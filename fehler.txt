@@ -1,0 +1,2 @@
+src/lib/codes.ts(19,3): error TS2740: Type 'void & Promise<Buffer<ArrayBufferLike>>' is missing the following properties from type 'Buffer<ArrayBufferLike>': slice, subarray, write, toJSON, and 101 more.
+src/lib/codes.ts(23,5): error TS2353: Object literal may only specify known properties, and 'eclevel' does not exist in type 'RenderOptions'.
