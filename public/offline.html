@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PostOffice - Offline</title>
+    <style>
+      body { margin: 0; font-family: system-ui, sans-serif; background: #F4F5F6; color: #25282B;
+             display: grid; place-items: center; min-height: 100vh; text-align: center; padding: 24px; }
+      .box { max-width: 420px; background: #fff; border-top: 8px solid #F2C900; padding: 32px; border-radius: 12px; }
+      button { background: #F2C900; border: 0; padding: 14px 24px; font-size: 16px; font-weight: 700; border-radius: 8px; }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <h1>Keine Verbindung</h1>
+      <p>PostOffice benötigt eine Internetverbindung. Aus Datenschutzgründen werden keine Sendungsdaten offline gespeichert.</p>
+      <button onclick="location.reload()">Erneut versuchen</button>
+    </div>
+  </body>
+</html>

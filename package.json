@@ -1,0 +1,44 @@
+{
+  "name": "postoffice",
+  "version": "1.0.0",
+  "private": true,
+  "description": "PostOffice - internes Post- und Logistikmanagementsystem",
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@supabase/ssr": "^0.7.0",
+    "@supabase/supabase-js": "^2.57.0",
+    "bwip-js": "^4.7.0",
+    "html5-qrcode": "^2.3.8",
+    "next": "^15.5.0",
+    "pdf-lib": "^1.17.1",
+    "pngjs": "^7.0.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "server-only": "^0.0.1",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.0",
+    "@types/node": "^22.10.0",
+    "@types/pngjs": "^6.0.5",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.20.0",
+    "eslint-config-next": "^15.5.0",
+    "postcss": "^8.5.0",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.9.0",
+    "vitest": "^3.2.0"
+  }
+}
